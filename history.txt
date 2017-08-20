@@ -1,5 +1,0 @@
-   10  sudo apt-get install synaptic gdebi
-   11  sudo apt-get install vlc smplayer audacious qmmp mixxx xbmc handbrake openshot
-   12  sudo apt-get install ubuntu-restricted-extras openjdk-8-jdk
-
-
