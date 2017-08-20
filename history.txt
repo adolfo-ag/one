@@ -1,0 +1,1000 @@
+   10  sudo apt-get install synaptic gdebi
+   11  sudo apt-get install vlc smplayer audacious qmmp mixxx xbmc handbrake openshot
+   12  sudo apt-get install ubuntu-restricted-extras openjdk-8-jdk
+   13  sudo /usr/share/doc/libdvdread4/install-css.sh
+   14  sudo apt-get install gimp gimp-plugin-registry gimp-data-extras darktable rawtherapee pinta shotwell inkscape
+   15  sudo apt-get install ttf-mscorefonts-installer
+   16  chromium-codecs-ffmpeg-extra
+   17  sudo chromium-codecs-ffmpeg-extra
+   18  sudo apt-get install chromium-codecs-ffmpeg-extra
+   19  sudo apt-add-repository ppa:skunk/pepper-flash
+   20  sudo apt-get update
+   21  sudo apt-get install pepflashplugin-installer
+   22  sudo apt-add-repository ppa:skunk/pepper-flash
+   23  sudo apt-get update
+   24  sudo apt-get install pepflashplugin-installer
+   25  sudo apt-get install pepperflashplugin-nonfree
+   26  sudo update-pepperflashplugin-nonfree --status
+   27  sudo cd /usr/lib/pepflashplugin-installer/pepflashplayer.sh
+   28  cd /usr/lib/pepflashplugin-installer/pepflashplayer.sh
+   29  cd /usr/lib/pepflashplugin-installer/
+   30  cd ..
+   31  ls
+   32  cd ..
+   33  ls
+   34  cd usr
+   35  cd lib
+   36  cd pepperflashplugin-nonfree/
+   37  ls
+   38  cd -..
+   39  cd  ..
+   40  cd ..
+   41  cd etc
+   42  cd chromium-browser/
+   43  ls
+   44  sudo nano default
+   45  sudo apt-get install deluge
+   46  ls
+   47  cd linux.64/
+   48  ls
+   49  sudo apt-get install libgtksourceview-3.0-common libgtksourceview2.0-0 libgnomeprint2.2-0 alacarte -y && sudo ln -s /usr/lib/libgtksourceview-2.0.so.0 /usr/lib/libgtksourceview-1.0.so.0 && sudo ln -s /usr/lib/x86_64-linux-gnu/libtiff.so.4.3.4 /usr/lib/libtiff.so.3 && sudo mkdir /usr/local/stata12/ && sudo chown adolf:adolf /usr/local/stata12/ && sudo cp * /usr/local/stata12/ && cd /usr/local/stata12/ && sudo chown -R adolf:adolf /usr/local/stata12/ && tar -xzvf docs.taz && tar -xzvf base.taz && tar -xzvf bins.taz && tar -xzvf ado.taz && chmod -R 755 .
+   50  sudo apt-get install libgtksourceview-3.0-common libgtksourceview2.0-0 libgnomeprint2.2-0 alacarte -y
+   51  sudo apt-get install alacarte -y
+   52  sudo apt-get install libgtksourceview-3.0-common libgtksourceview2.0-0 libgnomeprint2.2-0 alacarte -y
+   53  cd..
+   54  cd ..
+   55  sudo gedit /etc/apt/sources.list
+   56  sudo apt-get update
+   57  sudo apt-get install libgnomeprint2.2-0 libgtksourceview2.0-0
+   58  ls
+   59  cd Documents/
+   60  ls
+   61  cd linux.64/
+   62  sudo apt-get install libgtksourceview-3.0-common libgtksourceview2.0-0 libgnomeprint2.2-0 alacarte -y
+   63  sudo ln -s /usr/lib/libgtksourceview-2.0.so.0 /usr/lib/libgtksourceview-1.0.so.0 && sudo ln -s /usr/lib/x86_64-linux-gnu/libtiff.so.4.3.4 /usr/lib/libtiff.so.3
+   64  sudo mkdir /usr/local/stata12/
+   65  sudo chown adolf:adolf /usr/local/stata12/
+   66  sudo cp * /usr/local/stata12/ && cd /usr/local/stata12/ && sudo chown -R adolf:adolf /usr/local/stata12/
+   67  tar -xzvf docs.taz && tar -xzvf base.taz && tar -xzvf bins.taz && tar -xzvf ado.taz && chmod -R 755 .
+   68  cd /usr/local/stata12/ && ./xstata
+   69  sudo apt-get install alacarte -y
+   70  cd /usr/local/stata12/ && ./xstata
+   71  alacarte
+   72  sudo cp base/* 
+   73  sudo cp base/* .
+   74  sudo cp bins/stinit .
+   75  sudo sh setrwxp now
+   76  sudo gedit stata.lic
+   77  cd /usr/local/stata12/ && ./xstata
+   78  sudo sh setrwxp now
+   79  sudo ./stinit
+   80  alacarte
+   81  cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+   82  ~/.dropbox-dist/dropboxd
+   83  sudo add-apt-repository universe && sudo apt-get update
+   84  gnome-control-center
+   85  gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+   86  sudo apt-get install gnome-tweak-tool
+   87  gnome-tweak-tool
+   88  sudo echo "deb http://cran.rstudio.com/bin/linux/ubuntu xenial/" | sudo tee -a /etc/apt/sources.list
+   89  gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9
+   90  gpg -a --export E084DAB9 | sudo apt-key add -
+   91  sudo apt-get update
+   92  sudo apt-get install r-base r-base-dev
+   93  sudo apt-get install gdebi-core
+   94  wget https://download1.rstudio.org/rstudio-0.99.896-amd64.deb
+   95  sudo gdebi -n rstudio-0.99.896-amd64.deb
+   96  rm rstudio-0.99.896-amd64.deb
+   97  rstudio
+   98  sudo apt-add-repository ppa:smathot/cogscinl
+   99  sudo apt-get update
+  100  sudo apt-get install zotero-standalone
+  101  sudo mv ~/Downloads/Zotero_linux-i686/ /opt
+  102  sudo chmod 775 'zotero'
+  103  sudo chmod 775 '/home/adolf/.zotero/zotero/s9454133.default/zotero'
+  104  ls
+  105  dir
+  106  sudo chmod 775 '~/home/adolf/.zotero/zotero/s9454133.default/zotero'
+  107  sudo chmod 775 '~/zotero'
+  108  sudo chmod 775 '/home/'
+  109  sudo chmod 775 'home'
+  110  sudo chmod 775 '/home'
+  111  sudo apt-get update
+  112  sudo apt-get install vlc browser-plugin-vlc
+  113  sudo apt-get install dconf-tools
+  114  dconf editor
+  115  sudo apt-get install ubuntu-restricted-extras
+  116  sudo add-apt-repository ppa:numix/ppa
+  117  sudo apt-get update
+  118  sudo apt-get install numix-gtk-theme numix-icon-theme-circle
+  119  sudo add-apt-repository ppa:ubuntu-mate-dev/xenial-mate
+  120  sudo apt-get update
+  121  sudo apt-get upgrade
+  122  sudo apt-get install mate-dock-applet
+  123  sudo apt-get install gnome-tweak-tool
+  124  sudo add-apt-repository ppa:webupd8team/gnome3
+  125  sudo apt-get update
+  126  sudo apt-get install gnome-shell-extensions-user-theme gnome-shell-extensions-dock gnome-shell-extensions-drive-menu gnome-shell-extensions-pidgin gnome-shell-extensions-system-monitor gnome-shell-extensions-weather gnome-shell-extensions-windows-navigator
+  127  sudo apt purge gnome-software ubuntu-software
+  128  sudo apt autoremove
+  129  sudo apt install gnome-software ubuntu-software
+  130  sudo add-apt-repository ppa:cairo-dock-team/ppa 
+  131  sudo apt-get update
+  132  sudo apt-get dist-upgrade
+  133  sudo apt-get install cairo-dock cairo-dock-plug-ins
+  134  sudo apt-get install unity-tweak-tool gnome-tweak-tool
+  135  sudo reboot
+  136  sudo apt-get update
+  137  sudo apt-get upgrade
+  138  sudo apt-get update
+  139  sudo apt-get upgrade
+  140  sudo apt-get update
+  141  sudo apt-get upgrade
+  142  sudo apt-get update
+  143  R
+  144  sudo dpkg --add-architecture i386
+  145  sudo add-apt-repository ppa:wine/wine-builds
+  146  sudo apt-get update
+  147  sudo apt-get install --install-recommends winehq-devel
+  148  winehq-devel
+  149  sudo apt-get update
+  150  sudo apt-get install mate-desktop-environment-extras
+  151  sudo add-apt-repository ppa:nilarimogard/webupd8
+  152  sudo apt-get update
+  153  sudo apt-get install grive
+  154  mkdir -p ~/grive
+  155  cd ~/grive
+  156  grive -a
+  157  4/xaEU1xoUzYJqBhHfjFOYTyFtOExCXN9LAB-SacGRsag
+  158  grive -a
+  159  grive
+  160  ls
+  161  cd ~/grive
+  162  ld
+  163  ls
+  164  grive
+  165  cd..
+  166  cd ..
+  167  ls
+  168  cd ..
+  169  ls
+  170  cd adolf/
+  171  ls
+  172  ls -a
+  173  cd home
+  174  cd adolf
+  175  ls
+  176  mkdir TEST
+  177  LS
+  178  ls
+  179  cd TEST
+  180  cd Documents
+  181  cd ..
+  182  cd TEST/
+  183  cd ~
+  184  pwd
+  185  cd /
+  186  ls
+  187  cd usr
+  188  ls
+  189  cd /adolf/
+  190  cd ..
+  191  ls
+  192  cd ..
+  193  ls
+  194  cd home
+  195  ls
+  196  cd adolf
+  197  ls
+  198  cd Documents/
+  199  ls
+  200  rmdir TEST
+  201  ls
+  202  mkdir TEST
+  203  LS
+  204  ls
+  205  cd TEST/
+  206  ls
+  207  nano
+  208  ls
+  209  nano hello
+  210  la
+  211  cd ..
+  212  rmdir TEST
+  213  ls
+  214  cd TEST/
+  215  cd ..
+  216  rm -R TEST
+  217  ls
+  218  pwd
+  219  cd
+  220  cd Documents/
+  221  ls
+  222  mkdir TEST
+  223  cd TEST/
+  224  LS
+  225  ls
+  226  dir
+  227  nano
+  228  ls
+  229  head one
+  230  tail one
+  231  nano one
+  232  head one
+  233  tail one
+  234  clear
+  235  sudo apt-get update
+  236  sudo apt-get upgrade
+  237  sudo apt-get install update-manager-core
+  238  sudo do-release-upgrade
+  239  lsb_release -a
+  240  ls
+  241  cd Documents/
+  242  ls
+  243  cd..
+  244  cd ..
+  245  ls
+  246  grive
+  247  ls
+  248  cd ..
+  249  ls
+  250  cd adolf/
+  251  ls
+  252  cd grive/
+  253  ls
+  254  grive
+  255  system monitor
+  256  mate-system-monitor
+  257  ls
+  258  cd grive/
+  259  ls
+  260  grive
+  261  ls
+  262  cd soft/
+  263  ls
+  264  cd Jumpman/
+  265  ./configure
+  266  make
+  267  sudo make install Jumpman
+  268  sudo make Jumpman
+  269  ls
+  270  Jumpman
+  271  nano Readme.txt
+  272  ./configure
+  273  ./configure Jumpman
+  274  make
+  275  sudo make
+  276  sudo make install
+  277  make install
+  278  ./Jumpman
+  279  ls
+  280  ./Internal
+  281  -/Jumpman
+  282  ls
+  283  ./Readme.txt
+  284  sudo ./Jumpman
+  285  ./Jumpman
+  286  sudo apt-get update
+  287  cd ..
+  288  ls
+  289  cd grive/
+  290  grive
+  291  ls
+  292  cd grq
+  293  cd grive/
+  294  grive
+  295  cd grive/
+  296  grive
+  297  cd grive/
+  298  grive
+  299  ls
+  300  cd plink/
+  301  ls
+  302  java -jar Haploview.jar
+  303  cd grive/
+  304  grive
+  305  cd grive/
+  306  grive
+  307  cd grive/
+  308  grive
+  309  cd grive/
+  310  grive
+  311  cd grive/
+  312  grive
+  313  cd grive/
+  314  grive
+  315  sudo apt-get install libreoffice-gtk
+  316  cd grive
+  317  grive
+  318  cd grive
+  319  grive
+  320  cd ~/ado/personal/
+  321  dir
+  322  cd ..
+  323  ls
+  324  cd root
+  325  ls
+  326  sudo cd root
+  327  ls
+  328  sudo cd root
+  329  sudo root
+  330  root
+  331  ls
+  332  ado
+  333  cd ado
+  334  cd ~/ado
+  335  ls
+  336  cd /personal
+  337  cd /personal/
+  338  ls
+  339  cd ~/ado/personal/
+  340  cd ~/ado/personal
+  341  cd ..
+  342  cd ~/ado/personal
+  343  cd ~/ado/personal/
+  344  cd adolf/
+  345  ls
+  346  cd ado
+  347  ls
+  348  cd plus/
+  349  ls
+  350  cd ..
+  351  cd grive/
+  352  grive
+  353  cd grive/
+  354  grive
+  355  cd grive/
+  356  grive
+  357  cd grive
+  358  grive
+  359  ubuntu-tweak
+  360  tweak
+  361  cd gri
+  362  cd grive/
+  363  grive
+  364  cd ..
+  365  ls
+  366  cd ..
+  367  ls
+  368  cd ..
+  369  ls
+  370  cd usr
+  371  cd local
+  372  cd stata12
+  373  ls
+  374  sudo reboot
+  375  cd plink
+  376  ls
+  377  plink
+  378  ./plink
+  379  cd plink/
+  380  sudo plink
+  381  root
+  382  sudo root
+  383  cd plink/
+  384  ./plink 
+  385  cd plink/
+  386  ./plink --noweb
+  387  ./plink --file test --noweb
+  388  ./plink --file test --hardy --noweb
+  389  path
+  390  PATH
+  391  $PATH
+  392  ls
+  393  ~/bin
+  394  cd..
+  395  cd ,,
+  396  cd ..
+  397  ..
+  398  cd ..
+  399  ls
+  400  ~/bin
+  401  mkdir ~/bin
+  402  export PATH=$PATH:~/bin/
+  403  $PATH
+  404  mkdir ~/plink
+  405  export PATH=$PATH:~/plink/
+  406  $PATH
+  407  cd plink
+  408  ls
+  409  cd plink
+  410  ls
+  411  echo $PATH
+  412  mkdir ~/plink
+  413  export PATH=$PATH:~/plink/
+  414  echo $PATH
+  415  plink
+  416  $PATH
+  417  plink --noweb
+  418  echo PATH
+  419  echo $PATH
+  420  LS
+  421  ls
+  422  plink
+  423  cd bakup
+  424  cd ~/bakup
+  425  cd ,,
+  426  cd ~/bakup
+  427  ls
+  428  cd ~/bakup
+  429  cd /media
+  430  cd adolf/
+  431  cd bakup/
+  432  ls
+  433  cd Ebook/
+  434  ls
+  435  rm Langman\'s\ Medical\ Embryology\ 12th\ ed.\ -\ T.\ Sadler\ \(Lippincott\,\ 2012\)\ BBS.pdf 
+  436  rm Langman\'s\ Medical\ Embryology\ 12th\ ed.\ -\ T.\ Sadler\ \(Lippincott\,\ 2012\)\ BBS.pdf -r
+  437  sudo rm - Langman\'s\ Medical\ Embryology\ 12th\ ed.\ -\ T.\ Sadler\ \(Lippincott\,\ 2012\)\ BBS.pdf 
+  438  sudo chmod u+w Langman\'s\ Medical\ Embryology\ 12th\ ed.\ -\ T.\ Sadler\ \(Lippincott\,\ 2012\)\ BBS.pdf 
+  439  chmod u+w Langman\'s\ Medical\ Embryology\ 12th\ ed.\ -\ T.\ Sadler\ \(Lippincott\,\ 2012\)\ BBS.pdf 
+  440  sudo rm -f stata12update_win32.zip 
+  441  echo stata12update_win32.zip 
+  442  $ sudo add-apt-repository ppa:ubuntu-wine/ppa
+  443  $ sudo apt-get update && sudo apt-get upgrade
+  444  sudo add-apt-repository ppa:ubuntu-wine/ppa
+  445  sudo apt-get update && sudo apt-get upgrade
+  446  sudo apt-get install wine winetricks
+  447  sudo apt-get install mesa-utils mesa-utils-extra libgl1-mesa-glx:i386 libgl1-mesa-dev
+  448  sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/mesa/libGL.so
+  449  sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so /usr/lib/i386-linux-gnu/libGL.so
+  450  export WINEPREFIX="/home/cgomez/.wineprefixes/office2010/"
+  451  export WINEARCH="win32"
+  452  sudo apt-get install winbind
+  453  winetricks dotnet20 msxml6 corefonts
+  454  cd /media/adolf/OFFICE14
+  455  wine setup.exe
+  456  cd grive/
+  457  grive
+  458  cd grive/
+  459  grive
+  460  cd grive
+  461  grive
+  462  cd grive
+  463  grive
+  464  cd /home/adolf/soft/latex/install-tl-20160916
+  465  perl install-tl
+  466  sudo perl install-tl
+  467  sudo perl install-tl 
+  468  ...
+  469  cd ~/home
+  470  cd /home
+  471  ls
+  472  cd adolf
+  473  ls
+  474  cd ..
+  475  ls
+  476  cd ..
+  477  sudo apt-get install texmaker
+  478  cat /proc/sys/vm/swappiness
+  479  gksu gedit /etc/sysctl.conf
+  480  sudo sed -i "s/NoDisplay=true/NoDisplay=false/g" /etc/xdg/autostar/*.desktop
+  481  gksu gedit
+  482  cd grive
+  483  grive
+  484  cd ..
+  485  cd grive/
+  486  grive
+  487  cd grive/
+  488  grive
+  489  cd grive/
+  490  grive
+  491  cd grive/
+  492  grive 
+  493  grive
+  494  cd grive/
+  495  grive
+  496  cd grive
+  497  grive
+  498  cd grive
+  499  grive
+  500  cd grive/
+  501  grive
+  502  cd grive/
+  503  grive
+  504  cd grive/
+  505  grive
+  506  tar -xvJf tor-browser-linux64-6.0.5_en-US.tar.xz
+  507  cd tor-browser_en-US/
+  508  ./start-tor-browser.desktop 
+  509  cd grive/
+  510  grive
+  511  cd grive/
+  512  grive
+  513  sudo apt-get install kazam
+  514  kazam
+  515  ls
+  516  cd Downloads
+  517  ls
+  518  sudo dpkg -i microsoft_online_apps.deb
+  519  cd grive/
+  520  grive
+  521  cd grive/
+  522  grive
+  523  cd grive/
+  524  grive
+  525  cd grive/
+  526  grive
+  527  cd
+  528  sudo apt-get update
+  529  cd grive/
+  530  grive
+  531  cd grive
+  532  grive
+  533  cd grive/
+  534  grive
+  535  cd grive
+  536  grive
+  537  cd grive
+  538  grive
+  539  cd grive
+  540  grive
+  541  cd grive
+  542  grive
+  543  cd grive/
+  544  grive
+  545  cd grive
+  546  grive
+  547  sudo apt-get install --reinstall ttf-mscorefonts-installer  
+  548  ls
+  549  sudo dpkg-reconfigure ttf-mscorefonts-installer
+  550  ls
+  551  cd ..
+  552  ls
+  553  sudo dpkg-reconfigure ttf-mscorefonts-installer
+  554  cd adolf/
+  555  ls
+  556  sudo dpkg-reconfigure ttf-mscorefonts-installer
+  557  sudo apt-get remove --purge ttf-mscorefonts-installer
+  558  sudo apt-get install --reinstall ttf-mscorefonts-installer
+  559  wget http://httpredir.debian.org/debian/pool/contrib/m/msttcorefonts/ttf-mscorefonts-installer_3.6_all.deb
+  560  sudo dpkg -i ttf-mscorefonts-installer_3.6_all.deb
+  561  cd grive/
+  562  grive
+  563  cd grive/
+  564  grive
+  565  sudo apt-get install unrar
+  566  unrar
+  567  sudo apt-add-repository ppa:jd-team/jdownloader
+  568  jdownloader
+  569  sudo apt-get update
+  570  sudo apt-get install jdownloader
+  571  jdownloader
+  572  cd grive/
+  573  grive
+  574  cd grive/
+  575  grive
+  576  egrep -c ‘(svm|vmx)’ /proc/cpuinfo
+  577  egrep -c '(svm|vmx)' /proc/cpuinfo
+  578  sudo apt-get install qemu-kvm libvirt-bin bridge-utils virt-manager
+  579  sudo adduser adolf libvirtd
+  580  virsh -c qemu:///system list
+  581  sudo virsh -c qemu:///system list
+  582  sudo virt-manager
+  583  cd grive
+  584  grive
+  585  cd grive
+  586  grive
+  587  cd grive
+  588  grive
+  589  sudo apt-get update
+  590  sudo apt-get upgrade
+  591  sudo apt-get autoremove
+  592  du -sh /var/cache/apt/archives
+  593  sudo apt-get autoclean
+  594  sudo apt-get clean
+  595  ls
+  596  cd plink/
+  597  ls
+  598  plink
+  599  plink --file 500cc_n --assoc
+  600  plink --file 500cc_n --assoc --fisher --hwe 1 --geno 1 --output assoc500cc
+  601  plink --file 500cc_n --assoc --fisher --hwe 1 --geno 1 --out assoc500cc
+  602  plink --file 500cc_n --assoc --fisher --hwe 1 --geno 0.000001 --out assoc500cc
+  603  plink --file 500cc_n --assoc --fisher --hwe 1 --out assoc500cc
+  604  plink --file 500cc_n --assoc --fisher --hwe 0.00000000001 --out assoc500cc
+  605  plink --file 500cc_n --assoc --fisher --hwe 0.0000000000000001 --out assoc500cc
+  606  plink --file 500cc_n --assoc --fisher --hwe 0 --geno 0 --out assoc500cc
+  607  plink --file 500cc_n --assoc --fisher --hwe 0 --geno 0 --ci 95 --out assoc500cc
+  608  plink --file 500cc_n --assoc --fisher --hwe 0 --geno 0 --ci 0.95 --out assoc500cc
+  609  cd grive/
+  610  grive
+  611  cd plink
+  612  plink --file 500cc_n --assoc --fisher --hwe 0 --geno 0 --ci 0.95 --out assoc500ccf
+  613  plink --file 500cc_n --assoc --fisher --hwe 0 --geno 1 --ci 0.95 --out assoc500ccf
+  614  cd haploview/
+  615  java -jar Haploview.jar
+  616  cd grive
+  617  grive
+  618  cd grive
+  619  grive
+  620  cd ..
+  621  sudo apt-get install openssh-server
+  622  cd grive/
+  623  grive
+  624  uname -a
+  625  lsb_release -a
+  626  ls
+  627  exit
+  628  cd grive
+  629  grive
+  630  cd grive/
+  631  grive
+  632  griv3
+  633  grive
+  634  top
+  635  cd grive
+  636  grive
+  637  cd grive
+  638  grive
+  639  cd grive
+  640  grive
+  641  cd grive
+  642  grive
+  643  cd grive/
+  644  grive
+  645  R
+  646  ls
+  647  cd R
+  648  cd adolf
+  649  ls R
+  650  ls
+  651  sudo dpkg -i rstudio-1.0.136-amd64.deb
+  652  ls
+  653  cd packages/
+  654  ls
+  655  cd grive/
+  656  grive
+  657  r
+  658  R
+  659  ls
+  660  cd rvtdt/
+  661  ls
+  662  make rvTDT
+  663  cd rv-tdt/
+  664  ls
+  665  make rvTDT
+  666  cd curso.2017.inmegen/
+  667  ls
+  668  R
+  669  ls
+  670  cd Practica_PLINK/
+  671  la
+  672  plink --bfile all_merge --geno 0.1 --maf 0.01 --mind 0.1 --make-bed --out all_merge_QC
+  673  plink --bfile all_merge_QC --genome --noweb --out all_merge_QC
+  674  plink --bfile all_merge_QC --read-genome all_merge_QC,genome --cluster --mds-plot 4 --noweb --mds-plot 4 out all_merge_QC
+  675  plink --bfile all_merge_QC --read-genome all_merge_QC,genome --cluster --mds-plot 4 --noweb --mds-plot 4 --out all_merge_QC
+  676  ls
+  677  plink --bfile all_merge_QC --read-genome all_merge_QC.genome --cluster --mds-plot 4 --noweb --mds-plot 4 --out all_merge_QC
+  678  plink --bfile all_merge_QC --read-genome all_merge_QC.genome --cluster --noweb --mds-plot 4 --out all_merge_QC
+  679  ls
+  680  cut -f 1,2 -d " " CEU.ped > ids_CEU.txt
+  681  cut -f 1,2 -d " " GUE.ped > ids_GUE.txt
+  682  cut -f 1,2 -d " " SON.ped > ids_SON.txt
+  683  cut -f 1,2 -d " " VER.ped > ids_VER.txt
+  684  cut -f 1,2 -d " " YRI.ped > ids_YRI.txt
+  685  cut -f 1,2 -d " " ZAP.ped > ids_ZAP.txt
+  686  cut -f 1,2 -d " " CEU.ped > ids_CEU.txt
+  687  wc ids_CEU.txt
+  688  sort ids_CEU.txt | uniq | wc
+  689  R
+  690  cd grive
+  691  grive
+  692  cd grive/
+  693  grive
+  694  cd soft/
+  695  ls
+  696  cd fbat/
+  697  ls
+  698  tar xzf fbat_linux64.tar.gz
+  699  fbat
+  700  ./fbat
+  701  phyton --version
+  702  phyton -v
+  703  python --version
+  704  python --v
+  705  python -v
+  706  cd soft/
+  707  cd vtools/
+  708  la
+  709  ls
+  710  cd variant_tools-2.7.0/
+  711  ls
+  712  phyton
+  713  python
+  714  cd grive
+  715  grive
+  716  cd soft/
+  717  cd vm-ware-player/
+  718  ls
+  719  chmod a+x VMware-Player-12.5.5-5234757.x86_64.bundle
+  720  sudo ./VMware-Player-12.5.5-5234757.x86_64.bundle
+  721  cd grive
+  722  grive
+  723  sudo apt-get update
+  724  sudo apt-get upgrade
+  725  cd grive
+  726  grive
+  727  sudo apt update
+  728  sudo apt upgrade
+  729  cd grive/
+  730  grive
+  731  cd grive
+  732  grive
+  733  cd grive
+  734  grive
+  735  ls
+  736  chmod +x genymotion-2.9.0-linux_x64.bin 
+  737  ./genymotion-2.9.0-linux_x64.bin
+  738  cd genymotion/
+  739  genymotion
+  740  ls
+  741  lsb_release -a
+  742  cd grive
+  743  grive
+  744  cd grive
+  745  grive
+  746  cd grive/
+  747  grive
+  748  cd grive
+  749  grive
+  750  sudo add-apt-repository ppa:gezakovacs/ppa
+  751  sudo apt-get update
+  752  sudo apt-get install unetbootin
+  753  unetbootin
+  754  grive
+  755  cd grive/
+  756  grive
+  757  cd home
+  758  ls
+  759  cd soft/
+  760  ks
+  761  ls
+  762  cd tdt/
+  763  ls
+  764  tdtpc
+  765  ,/tdtpc
+  766  tar -xzvf Linux-tdtpc.tar.gz
+  767  tdtpc
+  768  sudo tdtpc
+  769  ls
+  770  tdtpc
+  771  make tdtpc
+  772  run tdtpc
+  773  -tdtpc
+  774  --tdtpc
+  775  tdtpc
+  776  cd grive
+  777  grive
+  778  cd grive/
+  779  grive
+  780  cd grive
+  781  grive
+  782  cd grive
+  783  grive
+  784  cd grive/
+  785  grive
+  786  cd grive
+  787  grive
+  788  cd grive
+  789  grive
+  790  cd grive/
+  791  grive
+  792  cd grive/
+  793  grive
+  794  sudo apt-get install nethogs
+  795  sudo nethogs wlan0
+  796  sudo nethogs
+  797  cd grive
+  798  grive
+  799  cd soft/
+  800  cd tree/
+  801  cd tree-1.7.0/
+  802  make
+  803  make install
+  804  sudo make install
+  805  tree -d /home/adolf/grive/CaP3
+  806  man tree
+  807  tree -d -l /home/adolf/grive/CaP3
+  808  man tree
+  809  tree -d -L /home/adolf/grive/CaP3
+  810  tree -d -a /home/adolf/grive/CaP3
+  811  tree -a /home/adolf/grive/CaP3
+  812  tree -a -l /home/adolf/grive/CaP3
+  813  tree -a -d /home/adolf/grive/CaP3
+  814  tree -a /home/adolf/grive/CaP3
+  815  man tree
+  816  tree -a -i /home/adolf/grive/CaP3
+  817  tree -a -i -f /home/adolf/grive/CaP3
+  818  man tree
+  819  tree -a -i -f -C /home/adolf/grive/CaP3
+  820  tree -a -f -C /home/adolf/grive/CaP3
+  821  tree -a -f /home/adolf/grive/CaP3
+  822  tree -a -L /home/adolf/grive/CaP3
+  823  tree -a -l /home/adolf/grive/CaP3
+  824  tree -a -l /home/adolf/grive/CaP3>map.txt
+  825  man tree
+  826  tree -a -l /home/adolf/grive/CaP3 -o map2
+  827  tree -a -l /home/adolf/grive/CaP3 -o map2.txt
+  828  man tree
+  829  tree -a -l /home/adolf/grive/CaP3 -X -o map
+  830  man tree
+  831  tree -a -l /home/adolf/grive/CaP3 -H -o map
+  832  tree -a -l /home/adolf/grive/CaP3 -J -o map
+  833  man tree
+  834  tree -a -l -D -c /home/adolf/grive/CaP3
+  835  tree -a -l -D /home/adolf/grive/CaP3
+  836  tree -a -l -d /home/adolf/grive/CaP3
+  837  tree -a -l /home/adolf/grive/CaP3
+  838  tree -a -L /home/adolf/grive/CaP3
+  839  man tree
+  840  tree -a -L 1000 /home/adolf/grive/CaP3
+  841  tree -a -L 10 /home/adolf/grive/CaP3
+  842  tree -a -l /home/adolf/grive/CaP3
+  843  tree -a -l /home/adolf/grive/CaP3 -o map.png
+  844  tree -a -l /home/adolf/grive/CaP3 -o map.jpg
+  845  tree -a -l /home/adolf/grive/CaP3 -o map.txt
+  846  tree -a -l -A /home/adolf/grive/CaP3 -o map.txt
+  847  tree -a -l -f /home/adolf/grive/CaP3 -o map.txt
+  848  tree -a -f /home/adolf/grive/CaP3 -o map.txt
+  849  tree -a -d /home/adolf/grive/CaP3 -o map.txt
+  850  tree -a -i -f home/adolf/grive/CaP3
+  851  cd grive
+  852  grive
+  853  man tree
+  854  tree /home/adolf/grive/CaP3 -d
+  855  la
+  856  ls
+  857  cd grive/
+  858  ls
+  859  cd CaP3
+  860  ls
+  861  tree /home/adolf/grive/CaP3 -d -f
+  862  tree /home/adolf/grive/CaP3 -d -l
+  863  tree /home/adolf/grive/CaP3 -a -l
+  864  tree /home/adolf/grive/CaP3 -a -L
+  865  tree /home/adolf/grive/CaP3 -a
+  866  tree /home/adolf/grive/CaP3 -a -l
+  867  tree /home/adolf/grive/CaP3 -a -s
+  868  man tree
+  869  tree /home/adolf/grive/CaP3 -a -s -Q
+  870  tree /home/adolf/grive/CaP3 -a -s -Q -t
+  871  tree /home/adolf/grive/CaP3 -a -s -Q -T
+  872  man tree
+  873  tree /home/adolf/grive/CaP3 -a -s -Q -g
+  874  tree /home/adolf/grive/CaP3 -a -s -Q -h
+  875  tree /home/adolf/grive/CaP3 -a -s -q -h
+  876  man tree
+  877  tree /home/adolf/grive/CaP3 -a -s -q -h -l
+  878  tree /home/adolf/grive/CaP3 -a -s -q -h
+  879  tree /home/adolf/grive/CaP3 -a -s -q -h -e
+  880  man tree
+  881  tree /home/adolf/grive/CaP3 -a -s -q -h -p
+  882  tree /home/adolf/grive/CaP3 -a -s -q -h -P
+  883  tree /home/adolf/grive/CaP3 -a -s -q -h -u
+  884  tree /home/adolf/grive/CaP3 -a -s -q -h -n
+  885  tree /home/adolf/grive/CaP3 -a -s -q -h
+  886  man tree
+  887  tree /home/adolf/grive/CaP3 -a -s -q -h --du
+  888  tree /home/adolf/grive/CaP3 -a -s -q -h
+  889  tree /home/adolf/grive/CaP3 -a -s -q -h -D
+  890  man tree
+  891  tree /home/adolf/grive/CaP3 -a -s -q -h -D -c
+  892  tree /home/adolf/grive/CaP3 -a -s -q -h -D
+  893  man tree
+  894  tree /home/adolf/grive/CaP3 -a -s -q -h -D -F
+  895  tree /home/adolf/grive/CaP3 -a -s -q -h -D
+  896  tree /home/adolf/grive/CaP3 -a -s -q -h -D -F
+  897  tree /home/adolf/grive/CaP3 -a -s -q -h -D>map.txt
+  898  tree /home/adolf/grive/CaP3 -a -s -q -h>map.txt
+  899  tree /home/adolf/grive/CaP3 -a -s -q>map.txt
+  900  tree /home/adolf/grive/CaP3 -a -s -q -h>map.txt
+  901  tree /home/adolf/grive/CaP3 -a -s -q -h
+  902  tree /home/adolf/grive/CaP3 -a -s -q -h>map.odt
+  903  tree /home/adolf/grive/CaP3 -a -s -q -h -D>map2.odt
+  904  cd grive/
+  905  grive
+  906  tree
+  907  cd grive
+  908  grive
+  909  tree head
+  910  man tree
+  911  tree /home/adolf/grive/CaP3 -a -s -q -h -D
+  912  tree /home/adolf/grive/CaP3 -a -s -q -h -D -t
+  913  tree /home/adolf/grive/CaP3 -a -q -D -t
+  914  tree /home/adolf/grive/CaP3 -a -q -D -t --dirfirst
+  915  tree /home/adolf/grive/CaP3 -a -q -D -t -s
+  916  tree /home/adolf/grive/CaP3 -a -q -D -t -r
+  917  tree /home/adolf/grive/CaP3 -a -q -D -t -u
+  918  tree /home/adolf/grive/CaP3 -a -q -D -t -m
+  919  man tree
+  920  tree /home/adolf/grive/CaP3 -a -q -D -t  -i
+  921  tree /home/adolf/grive/CaP3 -a -q -D -t  -S
+  922  tree /home/adolf/grive/CaP3 -a -q -D -t
+  923  tree /home/adolf/grive/CaP3 -a -q -D -t>map3.odt
+  924  ls
+  925  cd grive/
+  926  grive
+  927  date
+  928  date +'%s'
+  929  cd grive/
+  930  grive
+  931  cd grive/
+  932  grive
+  933  cd grive
+  934  grive
+  935  cd grive
+  936  grive
+  937  cd grive
+  938  grive
+  939  cd grive/
+  940  grive
+  941  cd grive
+  942  grive
+  943  cd grive
+  944  grive
+  945  cd grive
+  946  grive
+  947  cd grive
+  948  grive
+  949  cd grive
+  950  grive
+  951  cd grive
+  952  grive
+  953  cd grive
+  954  grive
+  955  cd grive/
+  956  grive
+  957  cd grive/
+  958  grive
+  959  cd grive
+  960  grive
+  961  cd grive/
+  962  grive
+  963  fdistk -l
+  964  sudo apt-get install gparted
+  965  fdisk -l
+  966  ssh -p 5263 adolfo@192.168.105.221
+  967  man ssh
+  968  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
+  969  nano .bash_profile
+  970  echo 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' >>~/.bash_profile
+  971  echo 'export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"' >>~/.bash_profile
+  972  echo 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' >>~/.bash_profile
+  973  nano .bash_profile
+  974  echo $PATH
+  975  PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+  976  echo $PATH
+  977  sudo apt-get install build-essential
+  978  brew install gcc
+  979  brew update --force
+  980  brew search samtools
+  981  brew install samtools
+  982  man samtools
+  983  brew install homebrew/science/samtools
+  984  github
+  985  brew install byobu
+  986  tree .
+  987  brew doctor
+  988  ssh -p 5263 adolfo@cluster.inmegen.gob.mx
+  989  sudo apt-get update
+  990  sudo apt-get upgrade
+  991  sudo apt-get install python3-apt
+  992  wget https://raw.githubusercontent.com/davidfoerster/apt-remove-duplicate-source-entries/master/apt-remove-duplicate-source-entries.py
+  993  chmod +x apt-remove-duplicate-source-entries.py
+  994  sudo ./apt-remove-duplicate-source-entries.py
+  995  sudo apt-get update
+  996  sudo apt-get purge cairo-dock cairo-dock-plug-ins && sudo apt-get autoremove
+  997  sudo apt-get update
+  998  sudo apt-get autoclean
+  999  sudo apt-get clean
+ 1000  sudo apt-get autoremove
+ 1001  sudo apt-get update
+ 1002  sudo apt update
+ 1003  sudo apt upgrade
+ 1004  sudo apt install adobe-flashplugin
+ 1005  sudo apt-get install ppa-purge
+ 1006  sudo apt-get update
+ 1007  man purge
+ 1008  man ppa-purge
+ 1009  history > history.txt
