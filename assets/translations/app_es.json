@@ -1,0 +1,65 @@
+{
+  "app_title": "Lectura Bilingüe",
+  "error_route_not_found": "Ruta no encontrada",
+  "home_greeting": "¡Hola, {name}! 👋",
+  "home_continue_world": "Continúa tu aventura en el mundo {world}.",
+  "home_button_world_map": "Mapa de mundos",
+  "home_button_library": "Biblioteca bilingüe",
+  "home_badges_label": "Logros desbloqueados: {count}",
+  "home_words_label": "Palabras dominadas: {count}",
+  "world_map_title": "Mapa de mundos",
+  "world_card_lessons": "{count} lecciones",
+  "world_card_locked": "Completa el mundo anterior",
+  "story_library_title": "Biblioteca bilingüe",
+  "story_reading_time": "{minutes} min",
+  "story_focus_words": "Palabras foco: {words}",
+  "lessons_title": "Lecciones",
+  "lessons_empty": "Contenido en preparación. Próximamente más aventuras.",
+  "lessons_change": "Cambiar lección",
+  "common_action_next": "Siguiente",
+  "common_action_finish": "Finalizar",
+  "common_action_keep_playing": "Seguir jugando",
+  "common_action_check": "Comprobar",
+  "common_retry_message": "Intenta de nuevo 🧐",
+  "reward_lesson_complete": "¡Lección \"{lesson}\" completada! 🎉",
+  "sound_match_prompt": {
+    "es": "Toca la palabra que comienza con {grapheme}",
+    "en": "Tap the word that starts with {grapheme}"
+  },
+  "blending_prompt": {
+    "es": "Une las sílabas para formar palabras",
+    "en": "Blend the syllables to build words"
+  },
+  "blending_listen_button": {
+    "es": "Escuchar palabra formada",
+    "en": "Play blended word"
+  },
+  "syllable_prompt": {
+    "es": "Toca las sílabas para formar \"{word}\"",
+    "en": "Tap syllables to build \"{word}\""
+  },
+  "minimal_pairs_prompt": {
+    "es": "Escucha y elige la palabra correcta",
+    "en": "Listen and choose the correct word"
+  },
+  "sight_word_title": {
+    "es": "Palabra mágica",
+    "en": "Sight word highlight"
+  },
+  "sight_word_action": {
+    "es": "¡Lo leí!",
+    "en": "Read it!"
+  },
+  "speed_prompt": {
+    "es": "Reto rápido: di cada palabra",
+    "en": "Quick challenge: say each word"
+  },
+  "speed_start": {
+    "es": "Comenzar",
+    "en": "Start"
+  },
+  "speed_reward": {
+    "es": "¡Gran velocidad!",
+    "en": "Amazing speed!"
+  }
+}
