@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../l10n/app_localizations.dart';
 import '../../models/lesson.dart';
 import 'step_widgets/blending_step.dart';
 import 'step_widgets/comprehension_step.dart';
@@ -60,6 +61,7 @@ class _LessonCarouselState extends State<LessonCarousel> {
   @override
   Widget build(BuildContext context) {
     final steps = widget.lesson.steps;
+    final l10n = context.l10n;
     return Stack(
       children: [
         Column(
@@ -84,7 +86,9 @@ class _LessonCarouselState extends State<LessonCarousel> {
             FilledButton(
               onPressed: _handleNextStep,
               child: Text(
-                _currentStepIndex == steps.length - 1 ? 'Finalizar' : 'Siguiente',
+                _currentStepIndex == steps.length - 1
+                    ? l10n.commonFinish
+                    : l10n.commonNext,
               ),
             ),
           ],

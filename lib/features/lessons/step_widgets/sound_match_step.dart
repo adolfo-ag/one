@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../l10n/app_localizations.dart';
 import '../../../models/lesson.dart';
 
 class SoundMatchStep extends StatefulWidget {
@@ -22,9 +23,8 @@ class _SoundMatchStepState extends State<SoundMatchStep> {
   @override
   Widget build(BuildContext context) {
     final locale = widget.step.locale ?? const Locale('es');
-    final prompt = locale.languageCode == 'es'
-        ? 'Toca la palabra que comienza con ${widget.step.grapheme}'
-        : 'Tap the word that starts with ${widget.step.grapheme}';
+    final grapheme = widget.step.grapheme ?? '';
+    final prompt = context.l10n.stepSoundMatch(locale, grapheme);
 
     final words = widget.step.sampleWords ?? const [];
 

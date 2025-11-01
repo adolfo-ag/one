@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'app.dart';
+import 'l10n/app_localizations.dart';
 
 void main() {
   runApp(const ProviderScope(child: BilingualApp()));
@@ -21,14 +22,12 @@ class BilingualApp extends StatelessWidget {
     );
 
     return MaterialApp(
-      title: 'Lectura Bilingüe',
+      onGenerateTitle: (context) => context.l10n.appTitle,
       theme: theme,
       debugShowCheckedModeBanner: false,
-      supportedLocales: const [
-        Locale('es'),
-        Locale('en'),
-      ],
+      supportedLocales: AppLocalizations.supportedLocales,
       localizationsDelegates: const [
+        AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,

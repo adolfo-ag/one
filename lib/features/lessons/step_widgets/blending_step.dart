@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../l10n/app_localizations.dart';
 import '../../../models/lesson.dart';
 
 class BlendingStep extends StatelessWidget {
@@ -15,11 +16,12 @@ class BlendingStep extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final syllables = step.syllables ?? const [];
+    final locale = step.locale ?? const Locale('es');
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Une las sílabas para formar palabras',
+          context.l10n.stepBlending(locale),
           style: Theme.of(context).textTheme.titleLarge,
         ),
         const SizedBox(height: 12),
@@ -36,7 +38,7 @@ class BlendingStep extends StatelessWidget {
         const Spacer(),
         FilledButton(
           onPressed: onCompleted,
-          child: const Text('Escuchar palabra formada'),
+          child: Text(context.l10n.stepBlendingListen(locale)),
         ),
       ],
     );

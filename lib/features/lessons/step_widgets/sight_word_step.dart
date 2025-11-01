@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../l10n/app_localizations.dart';
 import '../../../models/lesson.dart';
 
 class SightWordStep extends StatelessWidget {
@@ -22,9 +23,7 @@ class SightWordStep extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          locale.languageCode == 'es'
-              ? 'Palabra mágica'
-              : 'Sight word highlight',
+          context.l10n.stepSightWordTitle(locale),
           style: Theme.of(context).textTheme.titleLarge,
         ),
         const SizedBox(height: 16),
@@ -42,7 +41,7 @@ class SightWordStep extends StatelessWidget {
         const Spacer(),
         FilledButton(
           onPressed: onCompleted,
-          child: Text(locale.languageCode == 'es' ? '¡Lo leí!' : 'Read it!'),
+          child: Text(context.l10n.stepSightWordAction(locale)),
         ),
       ],
     );

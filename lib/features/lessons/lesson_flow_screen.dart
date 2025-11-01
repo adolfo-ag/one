@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../l10n/app_localizations.dart';
 import '../../models/lesson.dart';
 import '../../services/content/content_repository.dart';
 import '../../services/progress/progress_tracker.dart';
@@ -31,9 +32,9 @@ class _LessonFlowScreenState extends ConsumerState<LessonFlowScreen> {
     final lessons = ref.watch(lessonCatalogProvider)[widget.args.worldId] ?? [];
     if (lessons.isEmpty) {
       return AppScaffold(
-        title: 'Lecciones',
-        body: const Center(
-          child: Text('Contenido en preparación. Próximamente más aventuras.'),
+        title: context.l10n.lessonsTitle,
+        body: Center(
+          child: Text(context.l10n.lessonsEmpty),
         ),
       );
     }
@@ -50,7 +51,7 @@ class _LessonFlowScreenState extends ConsumerState<LessonFlowScreen> {
             });
           },
           icon: const Icon(Icons.swap_horiz),
-          tooltip: 'Cambiar lección',
+          tooltip: context.l10n.lessonsChange,
         )
       ],
       body: LessonCarousel(

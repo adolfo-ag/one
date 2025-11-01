@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../l10n/app_localizations.dart';
 import '../../services/content/content_repository.dart';
 import '../../services/progress/progress_tracker.dart';
 import '../../widgets/app_scaffold.dart';
@@ -15,7 +16,7 @@ class WorldMapScreen extends ConsumerWidget {
     final progress = ref.watch(progressTrackerProvider);
 
     return AppScaffold(
-      title: 'Mapa de mundos',
+      title: context.l10n.worldMapTitle,
       body: GridView.builder(
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
@@ -47,20 +48,20 @@ class WorldMapScreen extends ConsumerWidget {
                       children: [
                         Icon(world.icon, color: Colors.white),
                         const SizedBox(width: 8),
-                        Text(
-                          world.name,
-                          style: Theme.of(context)
-                              .textTheme
-                              .titleMedium
-                              ?.copyWith(color: Colors.white),
-                        ),
+                    Text(
+                      world.name,
+                      style: Theme.of(context)
+                          .textTheme
+                          .titleMedium
+                          ?.copyWith(color: Colors.white),
+                    ),
                       ],
                     ),
                     const Spacer(),
                     Text(
                       unlocked
-                          ? '${world.lessonCount} lecciones'
-                          : 'Completa el mundo anterior',
+                          ? context.l10n.worldLessonsLabel(world.lessonCount)
+                          : context.l10n.worldLockedLabel,
                       style: Theme.of(context)
                           .textTheme
                           .bodyMedium

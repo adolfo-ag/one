@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../l10n/app_localizations.dart';
 import '../../../models/lesson.dart';
 
 class MinimalPairsStep extends StatefulWidget {
@@ -28,11 +29,12 @@ class _MinimalPairsStepState extends State<MinimalPairsStep> {
 
     final pair = pairs[_currentIndex];
 
+    final locale = widget.step.locale ?? const Locale('es');
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Escucha y elige la palabra correcta',
+          context.l10n.stepMinimalPairs(locale),
           style: Theme.of(context).textTheme.titleLarge,
         ),
         const SizedBox(height: 12),

@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+import '../../../l10n/app_localizations.dart';
 import '../../../models/lesson.dart';
 import '../../rewards/reward_overlay.dart';
 
@@ -53,13 +54,12 @@ class _SpeedChallengeStepState extends State<SpeedChallengeStep> {
     final words = widget.step.words ?? const [];
     final locale = widget.step.locale ?? const Locale('es');
 
+    final l10n = context.l10n;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          locale.languageCode == 'es'
-              ? 'Reto rápido: di cada palabra'
-              : 'Quick challenge: say each word',
+          l10n.stepSpeedPrompt(locale),
           style: Theme.of(context).textTheme.titleLarge,
         ),
         const SizedBox(height: 24),
@@ -73,14 +73,14 @@ class _SpeedChallengeStepState extends State<SpeedChallengeStep> {
                       key: ValueKey(_currentIndex),
                       style: Theme.of(context).textTheme.displayLarge,
                     )
-                  : const RewardCard(message: '¡Gran velocidad!'),
+                  : RewardCard(message: l10n.stepSpeedReward(locale)),
             ),
           ),
         ),
         const SizedBox(height: 24),
         FilledButton(
           onPressed: _running ? null : _startChallenge,
-          child: Text(locale.languageCode == 'es' ? 'Comenzar' : 'Start'),
+          child: Text(l10n.stepSpeedStart(locale)),
         ),
       ],
     );

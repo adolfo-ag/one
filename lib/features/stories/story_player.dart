@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../l10n/app_localizations.dart';
 import '../../models/story.dart';
 
 class StoryPlayer extends StatefulWidget {
@@ -63,7 +64,7 @@ class _StoryPlayerState extends State<StoryPlayer> {
         ),
         const SizedBox(height: 12),
         Text(
-          'Palabras foco: ${focusWords.join(', ')}',
+          context.l10n.storyFocusWords(focusWords.join(', ')),
           style: Theme.of(context).textTheme.bodyMedium,
         ),
       ],

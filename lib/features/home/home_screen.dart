@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../app.dart';
+import '../../l10n/app_localizations.dart';
 import '../../services/progress/progress_tracker.dart';
 import '../../widgets/app_scaffold.dart';
 
@@ -12,17 +13,19 @@ class HomeScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final progress = ref.watch(progressTrackerProvider);
     return AppScaffold(
-      title: 'Lectura Bilingüe',
+      title: context.l10n.appTitle,
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            '¡Hola, ${progress.currentLearnerName}! 👋',
+            context.l10n.homeGreeting(progress.currentLearnerName),
             style: Theme.of(context).textTheme.headlineSmall,
           ),
           const SizedBox(height: 12),
           Text(
-            'Continúa tu aventura en el mundo ${progress.currentWorld + 1}.',
+            context
+                .l10n
+                .homeContinueWorld('${progress.currentWorld + 1}'),
             style: Theme.of(context).textTheme.bodyLarge,
           ),
           const SizedBox(height: 24),
@@ -31,7 +34,7 @@ class HomeScreen extends ConsumerWidget {
               Navigator.of(context).pushNamed(AppRoute.worlds.path);
             },
             icon: const Icon(Icons.map),
-            label: const Text('Mapa de mundos'),
+            label: Text(context.l10n.homeButtonWorldMap),
           ),
           const SizedBox(height: 12),
           FilledButton.icon(
@@ -39,7 +42,7 @@ class HomeScreen extends ConsumerWidget {
               Navigator.of(context).pushNamed(AppRoute.storyLibrary.path);
             },
             icon: const Icon(Icons.auto_stories),
-            label: const Text('Biblioteca bilingüe'),
+            label: Text(context.l10n.homeButtonLibrary),
           ),
           const SizedBox(height: 24),
           Card(
@@ -54,8 +57,14 @@ class HomeScreen extends ConsumerWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('Logros desbloqueados: ${progress.totalBadges}'),
-                        Text('Palabras dominadas: ${progress.masteredWords.length}'),
+                        Text(
+                          context.l10n.homeBadgesLabel(progress.totalBadges),
+                        ),
+                        Text(
+                          context
+                              .l10n
+                              .homeWordsLabel(progress.masteredWords.length),
+                        ),
                       ],
                     ),
                   ),

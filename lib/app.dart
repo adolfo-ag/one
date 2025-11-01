@@ -4,6 +4,7 @@ import 'features/home/home_screen.dart';
 import 'features/worlds/world_map_screen.dart';
 import 'features/stories/story_library_screen.dart';
 import 'features/lessons/lesson_flow_screen.dart';
+import 'l10n/app_localizations.dart';
 
 enum AppRoute {
   home('/'),
@@ -32,8 +33,8 @@ Route<dynamic> generateRoute(RouteSettings settings) {
       break;
   }
   return MaterialPageRoute(
-    builder: (_) => const Scaffold(
-      body: Center(child: Text('Ruta no encontrada')),
+    builder: (context) => Scaffold(
+      body: Center(child: Text(context.l10n.errorRouteNotFound)),
     ),
   );
 }

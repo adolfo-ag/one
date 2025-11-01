@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../l10n/app_localizations.dart';
+
 class RewardOverlay extends StatelessWidget {
   const RewardOverlay({
     super.key,
@@ -18,6 +20,7 @@ class RewardOverlay extends StatelessWidget {
       return const SizedBox.shrink();
     }
 
+    final message = context.l10n.rewardLessonComplete(lessonTitle);
     return Positioned.fill(
       child: DecoratedBox(
         decoration: BoxDecoration(
@@ -25,7 +28,7 @@ class RewardOverlay extends StatelessWidget {
         ),
         child: Center(
           child: RewardCard(
-            message: '¡Lección "$lessonTitle" completada! 🎉',
+            message: message,
             onDismissed: onDismissed,
           ),
         ),
@@ -65,7 +68,7 @@ class RewardCard extends StatelessWidget {
               const SizedBox(height: 24),
               FilledButton(
                 onPressed: onDismissed,
-                child: const Text('Seguir jugando'),
+                child: Text(context.l10n.commonKeepPlaying),
               ),
             ]
           ],

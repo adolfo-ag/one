@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../l10n/app_localizations.dart';
 import '../../../models/lesson.dart';
 
 class ComprehensionStep extends StatefulWidget {
@@ -51,11 +52,13 @@ class _ComprehensionStepState extends State<ComprehensionStep> {
                     widget.onCompleted();
                   } else {
                     ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text('Intenta de nuevo 🧐')),
+                      SnackBar(
+                        content: Text(context.l10n.commonRetryMessage),
+                      ),
                     );
                   }
                 },
-          child: const Text('Comprobar'),
+          child: Text(context.l10n.commonCheck),
         ),
       ],
     );

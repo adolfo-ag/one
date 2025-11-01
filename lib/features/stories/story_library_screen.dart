@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../l10n/app_localizations.dart';
 import '../../services/content/content_repository.dart';
 import '../../widgets/app_scaffold.dart';
 import 'story_reader_bottom_sheet.dart';
@@ -13,7 +14,7 @@ class StoryLibraryScreen extends ConsumerWidget {
     final stories = ref.watch(storyCatalogProvider);
 
     return AppScaffold(
-      title: 'Biblioteca bilingüe',
+      title: context.l10n.storyLibraryTitle,
       body: GridView.builder(
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
@@ -24,6 +25,11 @@ class StoryLibraryScreen extends ConsumerWidget {
         itemCount: stories.length,
         itemBuilder: (context, index) {
           final story = stories[index];
+          final locale = Localizations.localeOf(context);
+          final isSpanish = locale.languageCode == 'es';
+          final title = isSpanish ? story.titleEs : story.titleEn;
+          final summary = isSpanish ? story.summaryEs : story.summaryEn;
+
           return GestureDetector(
             onTap: () {
               showModalBottomSheet(
@@ -40,7 +46,7 @@ class StoryLibraryScreen extends ConsumerWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      story.titleEs,
+                      title,
                       style: Theme.of(context)
                           .textTheme
                           .titleMedium
@@ -48,11 +54,15 @@ class StoryLibraryScreen extends ConsumerWidget {
                     ),
                     const SizedBox(height: 12),
                     Text(
-                      story.summaryEs,
+                      summary,
                       style: Theme.of(context).textTheme.bodyMedium,
                     ),
                     const Spacer(),
-                    Text('${story.readingTimeMinutes} min'),
+                    Text(
+                      context.l10n.storyReadingTime(
+                        story.readingTimeMinutes,
+                      ),
+                    ),
                   ],
                 ),
               ),

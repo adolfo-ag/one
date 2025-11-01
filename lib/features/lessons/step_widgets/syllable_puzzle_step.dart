@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../l10n/app_localizations.dart';
 import '../../../models/lesson.dart';
 
 class SyllablePuzzleStep extends StatefulWidget {
@@ -22,11 +23,13 @@ class _SyllablePuzzleStepState extends State<SyllablePuzzleStep> {
   @override
   Widget build(BuildContext context) {
     final tiles = widget.step.tiles ?? const [];
+    final locale = widget.step.locale ?? const Locale('es');
+    final targetWord = widget.step.targetWord ?? '';
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Arrastra las sílabas para formar "${widget.step.targetWord}"',
+          context.l10n.stepSyllablePrompt(locale, targetWord),
           style: Theme.of(context).textTheme.titleLarge,
         ),
         const SizedBox(height: 16),
