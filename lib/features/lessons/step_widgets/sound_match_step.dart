@@ -1,0 +1,54 @@
+import 'package:flutter/material.dart';
+
+import '../../../l10n/app_localizations.dart';
+import '../../../models/lesson.dart';
+
+class SoundMatchStep extends StatefulWidget {
+  const SoundMatchStep({
+    super.key,
+    required this.step,
+    required this.onCompleted,
+  });
+
+  final LessonStep step;
+  final VoidCallback onCompleted;
+
+  @override
+  State<SoundMatchStep> createState() => _SoundMatchStepState();
+}
+
+class _SoundMatchStepState extends State<SoundMatchStep> {
+  int _selectedIndex = -1;
+
+  @override
+  Widget build(BuildContext context) {
+    final locale = widget.step.locale ?? const Locale('es');
+    final grapheme = widget.step.grapheme ?? '';
+    final prompt = context.l10n.stepSoundMatch(locale, grapheme);
+
+    final words = widget.step.sampleWords ?? const [];
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(prompt, style: Theme.of(context).textTheme.titleLarge),
+        const SizedBox(height: 12),
+        Wrap(
+          spacing: 12,
+          runSpacing: 12,
+          children: [
+            for (var i = 0; i < words.length; i++)
+              ChoiceChip(
+                label: Text(words[i]),
+                selected: _selectedIndex == i,
+                onSelected: (value) {
+                  setState(() => _selectedIndex = i);
+                  widget.onCompleted();
+                },
+              ),
+          ],
+        ),
+      ],
+    );
+  }
+}

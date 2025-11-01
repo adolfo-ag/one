@@ -1,0 +1,23 @@
+name: bilingual_reading_app
+description: >-
+  MVP bilingüe español-inglés para alfabetización infantil con Flutter.
+version: 0.1.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  flutter_riverpod: ^2.5.1
+  intl: ^0.19.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/translations/
